@@ -80,7 +80,7 @@ element. For example:
 
 ```python
 if Text('Accept cookies?').exists():
-	click('I accept')
+    click('I accept')
 ```
 
 I also often find `Text(...).value` useful for reading out data:
@@ -137,7 +137,7 @@ follows:
 
 As before, you can combine `S(...)` with other functions such as
 `click(S(...))`, or use it to extract data. For an example of this, see
-below.
+[below](#finding-all-elements).
 
 ## Combining Helium and Selenium's APIs
 
@@ -222,7 +222,7 @@ offset of an element. See the
 [`Point` class](https://github.com/mherrmann/helium/blob/0667ddb9be531367a0d707ad8f5fcfb75c528521/helium/__init__.py#L1010)
 for how.
 
-## Taking a screenshot:
+## Taking a screenshot
 
 Use Selenium's API:
 
